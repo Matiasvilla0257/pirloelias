@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuario",
+    "dateExported": "2024-04-26T20:07:25.695Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c39c67b7-4c98-4226-9046-883c3e8c0b33",
+            "colId": "96629c12-da94-4163-8e76-d2a68a251170",
+            "containerId": "",
+            "name": "crearUsuario",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-26T19:29:32.496Z",
+            "modified": "2024-04-26T20:03:36.678Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"idusuario\":6,\n  \"identificacion\":2548752,\n  \"nombres\":\"andres\",\n  \"correo\":\"andres@gmail.com\",\n  \"contrasena\":\"poquemom\",\n  \"telefono\":3658984\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "82fdb459-0bfa-4b5c-8100-a8ce699670c6",
+            "colId": "96629c12-da94-4163-8e76-d2a68a251170",
+            "containerId": "",
+            "name": "mostrarUsuario",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-26T19:31:28.752Z",
+            "modified": "2024-04-26T19:42:57.723Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c2a123fe-f433-44b8-82f8-575cdbc1b358",
+            "colId": "96629c12-da94-4163-8e76-d2a68a251170",
+            "containerId": "",
+            "name": "actualizarUsuario",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-04-26T19:32:13.391Z",
+            "modified": "2024-04-26T19:33:02.217Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a1bc8049-1f8d-4095-b2ea-8b25c02e4bec",
+            "colId": "96629c12-da94-4163-8e76-d2a68a251170",
+            "containerId": "",
+            "name": "eliminarUsuario",
+            "url": "http://localhost:9000/api/usuario",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-26T19:32:50.192Z",
+            "modified": "2024-04-26T19:33:10.004Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
